@@ -1,5 +1,8 @@
 Which city has the highest inefficiency ratio? Look it up on submarinecablemap.com — what cables serve it and how does that explain your result?
+- London has the highest inefficiency ratio. Looking it up, the cables that serve it include those serving highbridge, Berean, Oxwich Bay and Bude among others, at least when looking at traffic from the United States. These cables are all transatlantic cables, which would explain why the inefficiency ratio is so high. these cables have a slower propogation rate and higher delays. So, becauase London is close to Boston relative to the length of the calbing, such inefficiencies make a bigger impact on the inefficiency ratio compared to other traffic, which, while it must still use the cable, must also travel a longer distance and therefore has a lower ratio.
 
 Which city is closest to the theoretical minimum? What does that tell you about routing infrastructure there?
+- Canberra is closest to the theoretical minimum, having the lowest inefficiency ratio. This tells me that the routing infrastucture there is highly efficient, being abble to route data faster than the other cities, desipte being one of the farthest away from Boston.
 
 Your packet to Lagos almost certainly routes through Europe first. Why does Africa route through Europe, and what would need to change to fix it?
+- There are no transatlantic cables that start in North America and end in Africa. Thus, all traffic from Boston must be routed through Europe and then south into Africa. In order to fix this, a new cable must be laid under the atlantic ocean from North America to Africa that would be more efficient than the current cables we have through Europe and into Africa. 
